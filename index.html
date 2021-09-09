@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/reset.css" />
-    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="stylesheet" href="/assets/css/head.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap"
       rel="stylesheet"
@@ -28,13 +33,17 @@
         <div class="menu">
           <ul class="menu-list">
             <li class="menu-item-1">HOME</li>
-            <li class="menu-item-2">PACKAGES
+            <li class="menu-item-2">
+              PACKAGES
               <ul class="menu-item-2_sub-menu">
-                <li><a href="#">Search 1</a>
+                <li>
+                  <a href="#">Search 1</a>
                   <span class="menu-item-hot">HOT</span>
                 </li>
                 <li><a href="#">Search 2</a></li>
-                <li class="menu-item-2-child"><a href="#">Tour Package</a><span class="ti-angle-right"></span>
+                <li class="menu-item-2-child">
+                  <a href="#">Tour Package</a
+                  ><span class="ti-angle-right"></span>
                   <ul class="sub-menu-item-2-child">
                     <li>Carousel <span class="menu-item-best">BEST</span></li>
                     <li>Custom Map</li>
@@ -46,7 +55,8 @@
                 <li><a href="#">Typology 1</a></li>
               </ul>
             </li>
-            <li class="menu-item-3">SHOP
+            <li class="menu-item-3">
+              SHOP
               <ul class="menu-item-3_sub-menu">
                 <li><a href="#"></a>Archive</li>
                 <li><a href="#"></a>Single Product</li>
@@ -54,16 +64,19 @@
                 <li><a href="#"></a>Checkout</li>
               </ul>
             </li>
-            <li class="menu-item-4">ABOUT US
+            <li class="menu-item-4">
+              ABOUT US
               <ul class="menu-item-4_sub-menu">
-                <li><a href="#"></a>About Us
-                  <span class="menu-item-new">NEW</span>
+                <li>
+                  <a href="#"></a>About Us
+                  <span class="menu-item-new">NEWS</span>
                 </li>
                 <li><a href="#"></a>About Us 2</li>
                 <li><a href="#"></a>About Us 3</li>
               </ul>
             </li>
-            <li class="menu-item-5">PAGES
+            <li class="menu-item-5">
+              PAGES
               <ul class="menu-item-5_sub-menu">
                 <li><a href="#"></a>Services</li>
                 <li><a href="#"></a>Agency Tour</li>
@@ -72,14 +85,16 @@
                 <li><a href="#"></a>Promotions</li>
                 <li><a href="#"></a>Faq</li>
                 <li><a href="#"></a>Coming Soon</li>
-                <li class="menu-item-5-child-1"><a href="#"></a>About Us <span class="ti-angle-right"></span>
+                <li class="menu-item-5-child-1">
+                  <a href="#"></a>About Us <span class="ti-angle-right"></span>
                   <ul class="sub-menu-item-5-child-1">
                     <li>About Us 1</li>
                     <li>About Us 2</li>
                     <li>About Us 3</li>
                   </ul>
                 </li>
-                <li class="menu-item-5-child-2"><a href="#"></a>Contact <span class="ti-angle-right"></span>
+                <li class="menu-item-5-child-2">
+                  <a href="#"></a>Contact <span class="ti-angle-right"></span>
                   <ul class="sub-menu-item-5-child-2">
                     <li>Contact 1</li>
                     <li>Contact 2</li>
@@ -87,10 +102,13 @@
                 </li>
               </ul>
             </li>
-            <li class="menu-item-6">NEW
+            <li class="menu-item-6">
+              NEW
               <ul class="menu-item-6_sub-menu">
                 <li><a href="#"></a>Archive</li>
-                <li class="menu-item-6-child"><a href="#"></a>Single Post <span class="ti-angle-right"></span>
+                <li class="menu-item-6-child">
+                  <a href="#"></a>Single Post
+                  <span class="ti-angle-right"></span>
                   <ul class="sub-menu-item-6-child">
                     <li>Full Witdh</li>
                     <li>Right Sidebar</li>
@@ -99,22 +117,57 @@
                 </li>
               </ul>
             </li>
-            <li class="menu-item-7">CONTACT
+            <li class="menu-item-7">
+              CONTACT
               <ul class="menu-item-7_sub-menu">
                 <li><a href="#"></a>Contact 1</li>
                 <li><a href="#"></a>Contact 2</li>
               </ul>
             </li>
-            <li class="menu-item_active">BOOK NOW </li>
+            <li class="menu-item_active">BOOK NOW</li>
           </ul>
         </div>
         <div class="icon-nav">
-            <span class="ti-menu"></span>
+          <span class="ti-menu"></span>
         </div>
       </div>
       <!-- End Nav -->
       <div class="head_container">
         <div class="wrapper">
+          <div class="wrapper_title">
+            <h1 class="wrapper_big-title">
+              Search your next <span class="wrapper_big-title-special">Holiday</span>
+            </h1>
+            <h6 class="wrapper_small-title">
+              CHECK OUR BEST PROMOTIONS
+            </h6>
+          </div>
+          <div class="dropdown" id="lightdropdown">
+            <div class="dropdown-select">
+              <span class="dropdown-selected">Choose your Destination...</span>
+              <i class="fas fa-search"></i>
+            </div>
+            <ul class="dropdown-list">
+              <li class="dropdown-item" data-value="Choose your Destination...">Choose your Destination...</li>
+              <li class="dropdown-item" data-value="Eroupe">Eroupe</li>
+              <li class="dropdown-item" data-value="Italy" style="margin-left: 8px;">-Italy</li>
+              <li class="dropdown-item" data-value="Netherlands" style="margin-left: 8px;">-Netherlands</li>
+              <li class="dropdown-item" data-value="Asia">Asia</li>
+              <li class="dropdown-item" data-value="Thailandia" style="margin-left: 8px;">-Thailandia</li>
+              <li class="dropdown-item" data-value="United States">United States</li>
+              <li class="dropdown-item" data-value="Oceania">Oceania</li>
+            </ul>
+          </div>
+          <div class="travel_section">
+            <div class="travel_section-border">
+              <div class="travel_section-icon">
+
+              </div>
+              <div class="travel_section-text">
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -123,4 +176,39 @@
 
     <footer></footer>
   </body>
+  <script>
+    window.addEventListener("load", function () {
+      const dropdownItems = document.querySelectorAll(
+        "#lightdropdown .dropdown-item"
+      );
+      const dropdownSelect = document.querySelector(
+        "#lightdropdown .dropdown-select"
+      );
+      const dropdownSelectText = document.querySelector(
+        "#lightdropdown .dropdown-selected"
+      );
+      const dropdownList = document.querySelector(
+        "#lightdropdown .dropdown-list"
+      );
+      const dropdownCaret = document.querySelector(
+        "#lightdropdown .dropdown-caret"
+      );
+
+      dropdownSelect.addEventListener("click", function () {
+        dropdownList.classList.toggle("show");
+        dropdownCaret.classList.toggle("fa-angle-up");
+      });
+
+      function handleSelectDropdown(e) {
+        const { value } = e.target.dataset;
+        dropdownSelectText.textContent = value;
+        dropdownList.classList.remove("show");
+        dropdownCaret.classList.remove("fa-angle-up");
+      }
+
+      dropdownItems.forEach((el) =>
+        el.addEventListener("click", handleSelectDropdown)
+      );
+    });
+  </script>
 </html>
