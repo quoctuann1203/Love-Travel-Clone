@@ -71,7 +71,7 @@ header {
 .menu-item-4,
 .menu-item-5,
 .menu-item-6,
-.menu-item-7:hover {
+.menu-item-7,.menu-item_active:hover {
   cursor: pointer;
 }
 
@@ -605,6 +605,7 @@ header {
 
 .wrapper {
   height: 400px;
+  margin-top: -25px;
   padding: 0 15px;
   text-align: center;
 }
@@ -714,7 +715,7 @@ button {
   --secondary: #47536b;
   position: relative;
   margin: 68px 400px 0;
-  border-radius: 8px;
+  border-radius: 30px;
 }
 .dropdown-caret {
   color: var(--primary);
@@ -725,6 +726,8 @@ button {
   padding: 1.5rem;
   border-radius: inherit;
   display: flex;
+  color: #9a9a9a;
+  font-weight: 400;
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
@@ -732,6 +735,10 @@ button {
 .dropdown-select * {
   pointer-events: none;
 }
+.fa-search {
+  margin-right: 8px;
+}
+
 .dropdown-list {
   position: absolute;
   top: 100%;
@@ -766,8 +773,41 @@ button {
   transition: all 0.25s ease;
   border-radius: 8px;
   cursor: pointer;
+  color: #9a9a9a;
+  font-weight: 400;
 }
 .dropdown-item:hover {
   color: var(--primary);
   background-color: #f1fbff;
 }
+
+.travel_section {
+  margin: 72px 280px 0;
+  max-width: 600px;
+  height: 134px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.travel_section-border {
+  max-width: 19%;
+  padding: 20px;
+  height: 104px;
+  background: rgba(0,0,0,0.3)
+}
+
+.travel_section-icon {
+  
+}
+
+.travel_section-icon-img {
+  width: 40px;
+  margin: 0 20px 8px;
+}
+
+.travel_section-text {
+  font-size: 14px;
+  color: var(--white-color);
+  padding-left: 6px;
+}
+
