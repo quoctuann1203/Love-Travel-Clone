@@ -14,10 +14,10 @@
 /* Animation */
 @keyframes fadeIn {
   from {
-      opacity: 0;
+    opacity: 0;
   }
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
@@ -63,7 +63,7 @@
 
 .place-list__title-big > span:after {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 5px;
   left: 0;
@@ -82,7 +82,7 @@
 
 .place-list__item {
   margin-bottom: 20px;
-  width: 33.33% ;
+  width: 33.33%;
 }
 
 .place__img {
@@ -92,7 +92,7 @@
 }
 
 .place-item__img {
-  filter: brightness(0.93)
+  filter: brightness(0.93);
 }
 
 .place__icon {
@@ -114,7 +114,7 @@
   left: 0;
   width: 100%;
   color: var(--white-color);
-  background-color:rgba(0, 0, 0, 0.02);
+  background-color: rgba(0, 0, 0, 0.02);
   /* z-index: 1000; */
 }
 
@@ -183,7 +183,6 @@
   font-weight: 600;
 }
 
-
 /* Phan 2 Container */
 .banner {
   position: relative;
@@ -234,7 +233,7 @@
   padding: 14px 36px;
 }
 
-.banner-text-2  > span {
+.banner-text-2 > span {
   position: relative;
   z-index: 99;
   text-decoration: none;
@@ -242,7 +241,7 @@
 
 .banner-text-2 > span:after {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 5px;
   left: 0;
@@ -253,7 +252,194 @@
 
 /* Phan 3 Container */
 .info-tour {
-  margin: 80px 0;
+  margin: 80px 170px;
+}
+/* Wrapper 1 */
+.info-tour-wrapper-1 {
+  display: flex;
+  position: relative;
+}
+
+.info-tour-place {
+  width: 33.33333333%;
+  margin-right: 40px;
+}
+
+.info-tour-name {
+  color: #9a9a9a;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.info-tour-title {
+  margin-top: 16px;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: #555;
+}
+
+.info-tour-title > span {
+  position: relative;
+  z-index: 99;
+  text-decoration: none;
+}
+
+.info-tour-title > span::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 5px;
+  left: 0;
+  bottom: 8px;
+  z-index: -9;
+  background-color: #14b9d5;
+}
+
+.info-tour-desc {
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  color: #9a9a9a;
+  margin: 20px 0 10px;
+  font-weight: 500;
+}
+
+.info-tour-price {
+  color: #555555;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.info-tour-price__default {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #dadada;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
+.info-tour-price__sale {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.info-tour-price__quantity {
+  color: #555;
+}
+
+.info-tour-link {
+  border-radius: 38px;
+  letter-spacing: 2px;
+  line-height: 14px;
+  font-size: 14px;
+  background-color: #1bbc9b;
+  padding: 15px 35px;
+  color: #ffffff;
+}
+
+.info-tour-slider {
+  width: 66.66666667%;
+}
+
+.info-tour-slider-img {
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/package-3.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 410px;
+  opacity: 1;
+  visibility: inherit;
+  z-index: 20;
+}
+
+/* Slider */
+
+button {
+  cursor: pointer;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  padding: 10px 60px 16px;
+  border-radius: 4px;
+  background-color: #14b9d5;
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  bottom: -55px;
+  right: 115px;
+}
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 2rem;
+  width: 25%;
+}
+
+.countdown-number {
+  font-weight: 600;
+  font-size: 40px;
+}
+.countdown-text {
+  font-weight: 400;
+  font-size: 16px;
+}
+@media screen and (max-width: 767px) {
+  .countdown-number {
+    font-size: 3.5rem;
+  }
+}
+
+/* Wrapper 2 */
+.info-tour-wrapper-2 {
+  margin-top: 100px;
+  display: flex;
+}
+
+.info-tour-wrapper-2-inner {
+  display: flex;
+  padding: 0 15px;
+}
+
+.info-tour-wrapper-2-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 16px;
+}
+
+.info-tour-wrapper-2-section {
+}
+
+.info-tour-wrapper-2-section-title {
+  font-size: 24px;
+  line-height: 24px;
+  color: #555;
+}
+
+.info-tour-wrapper-2-section-desc {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  margin: 20px 0px;
+  color: #9a9a9a;
+}
+
+.info-tour-wrapper-2-section-link {
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 0px;
+  border: 0px solid;
+  color: #14b9d5;
 }
 
 /* Phan 4 Container */
